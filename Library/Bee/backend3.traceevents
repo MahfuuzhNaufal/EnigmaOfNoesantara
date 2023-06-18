@@ -1,0 +1,154 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1686847851559409, "dur":26721, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686847851586139, "dur":147, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686847851586335, "dur":442, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686847851586945, "dur":80, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":0, "ts":1686847851587151, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1686847851590278, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":0, "ts":1686847851586798, "dur":3711, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686847851590511, "dur":55156, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686847851645668, "dur":167, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686847851645836, "dur":226, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686847851646262, "dur":2116, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686847851587067, "dur":3474, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686847851590556, "dur":1398, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686847851591955, "dur":4722, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686847851596684, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1686847851596803, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":1, "ts":1686847851596791, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1686847851597082, "dur":115, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686847851597239, "dur":66, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686847851597457, "dur":66, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686847851597563, "dur":242, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686847851597896, "dur":148, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1686847851598045, "dur":47653, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686847851587122, "dur":3442, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686847851590571, "dur":1372, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686847851591944, "dur":4740, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686847851596691, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686847851596951, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686847851597082, "dur":130, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686847851597310, "dur":200, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686847851597685, "dur":225, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686847851597987, "dur":47695, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686847851587047, "dur":3480, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686847851590533, "dur":6125, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686847851596695, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686847851596787, "dur":686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1686847851597475, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686847851597564, "dur":161, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1686847851597766, "dur":99, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686847851597887, "dur":125, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686847851598014, "dur":47648, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686847851587244, "dur":3364, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686847851590614, "dur":1290, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686847851591905, "dur":4799, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686847851596707, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1686847851596907, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1686847851596890, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1686847851597103, "dur":309, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686847851597478, "dur":133, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686847851597684, "dur":136, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686847851597849, "dur":87, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1686847851597978, "dur":47686, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686847851587185, "dur":3404, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686847851590596, "dur":1159, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686847851591756, "dur":4904, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686847851596683, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686847851596810, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1686847851596796, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1686847851596934, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1686847851597059, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686847851597192, "dur":146, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686847851597473, "dur":450, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1686847851597979, "dur":47693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686847851587313, "dur":3308, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686847851590628, "dur":1320, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686847851591948, "dur":4741, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686847851596724, "dur":175, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1686847851596692, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1686847851596943, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1686847851597085, "dur":121, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1686847851597210, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686847851597285, "dur":117, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686847851597484, "dur":166, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686847851597763, "dur":90, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686847851597876, "dur":193, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1686847851598070, "dur":47688, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686847851587378, "dur":3260, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686847851590642, "dur":1018, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686847851591660, "dur":5041, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686847851596702, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1686847851596793, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1686847851596877, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1686847851597079, "dur":131, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686847851597311, "dur":149, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686847851597483, "dur":151, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686847851597887, "dur":107, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1686847851597995, "dur":47675, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686847851587445, "dur":3201, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686847851590651, "dur":1255, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686847851591907, "dur":4766, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686847851596676, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1686847851596850, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1686847851596953, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1686847851597078, "dur":59, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686847851597361, "dur":85, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686847851597468, "dur":70, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686847851597558, "dur":123, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686847851597702, "dur":94, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686847851597850, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686847851597849, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686847851597957, "dur":102, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1686847851598060, "dur":47662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686847851587501, "dur":3162, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686847851590667, "dur":1094, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686847851591761, "dur":4909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686847851596689, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1686847851596675, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1686847851596819, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1686847851596882, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686847851596948, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686847851596947, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686847851597237, "dur":111, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686847851597373, "dur":184, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686847851597620, "dur":118, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686847851597760, "dur":196, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1686847851598004, "dur":47744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686847851587582, "dur":3101, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686847851590685, "dur":708, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686847851591394, "dur":5287, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686847851596726, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":10, "ts":1686847851596684, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1686847851596949, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686847851596945, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686847851597108, "dur":187, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686847851597418, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686847851597490, "dur":179, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686847851597693, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686847851597767, "dur":101, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1686847851597892, "dur":137, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1686847851598029, "dur":47636, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686847851587657, "dur":3062, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686847851590719, "dur":5945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686847851597128, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"ProjectSettings\\BurstAotSettings_StandaloneWindows.json" }}
+,{ "pid":12345, "tid":11, "ts":1686847851597190, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Asus\\Raka Fix\\Library\\PackageCache\\com.unity.burst@1.8.4\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":11, "ts":1686847851596676, "dur":588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":11, "ts":1686847851597265, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686847851598015, "dur":11726, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\AsyncPluginsFromLinker\\x86_64\\lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686847851598013, "dur":11731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686847851611101, "dur":34519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686847851587707, "dur":3021, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686847851590728, "dur":5940, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686847851596693, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.1f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1686847851596674, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1686847851596801, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1686847851596950, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":12, "ts":1686847851596949, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix.exe" }}
+,{ "pid":12345, "tid":12, "ts":1686847851597088, "dur":180, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686847851597475, "dur":122, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686847851597754, "dur":93, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686847851597883, "dur":101, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game Run/Raka Fix_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1686847851597985, "dur":47725, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686847851652096, "dur":832, "ph":"X", "name": "ProfilerWriteOutput" }
+,
