@@ -8,7 +8,7 @@ public class Playermovement : MonoBehaviour
 {
    public float moveSpeed = 3f;
    public Rigidbody2D rb;
-    public Animator animasi;
+   public Animator animasi;
 
     Vector2 movement;
     // Update is called once per frame

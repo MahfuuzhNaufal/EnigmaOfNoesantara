@@ -384,11 +384,16 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Script/AIMusuh.cs"
+"Assets/Script/Chest.cs"
 "Assets/Script/HealthBar.cs"
+"Assets/Script/levelManager.cs"
 "Assets/Script/MainMenu.cs"
+"Assets/Script/nextLevel.cs"
 "Assets/Script/PauseMenu.cs"
 "Assets/Script/Player movement.cs"
 "Assets/Script/Player.cs"
+"Assets/Script/PlayerAttack.cs"
+"Assets/Script/PlayerController.cs"
 "Assets/Script/SimpleMovement.cs"
 -langversion:9.0
 
