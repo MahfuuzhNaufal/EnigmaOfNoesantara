@@ -69,6 +69,7 @@
     <Compile Include="Assets\Script\Player movement.cs" />
     <Compile Include="Assets\Script\nextLevel.cs" />
     <Compile Include="Assets\Script\PlayerController.cs" />
+    <Compile Include="Assets\Script\PauseMenu2.cs" />
     <Compile Include="Assets\Script\PauseMenu.cs" />
     <Compile Include="Assets\Script\chestcontrol.cs" />
   </ItemGroup>

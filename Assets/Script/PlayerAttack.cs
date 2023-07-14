@@ -25,6 +25,7 @@ public class PlayerAttack : MonoBehaviour
                 nextAttackTime = Time.time + 1f / attackRate;
             }
         }
+  
 
     }
 

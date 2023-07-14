@@ -5,10 +5,12 @@ using UnityEngine;
 public class AIMusuh : MonoBehaviour
 {
     public GameObject player;
+    public GameObject bloodEffect;
     public float speed;
-    private float distance;
     public int maxHealth = 100;
-    int currentHealth; 
+    public Transform Range;
+    private float distance;
+    int currentHealth;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,14 +24,16 @@ public class AIMusuh : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-
+        Instantiate(bloodEffect, transform.position, Quaternion.identity);
         if(currentHealth <= 0)
         {
             Die();
         }
+        Debug.Log("kena kau");
     }
     void Die()
     {
+        Destroy(gameObject);
         Debug.Log("musuh mati");
 
     }
