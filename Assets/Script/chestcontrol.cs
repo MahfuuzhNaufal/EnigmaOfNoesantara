@@ -9,6 +9,8 @@ public class chestcontrol : MonoBehaviour
     public int coinAmount;          // Jumlah koin yang diberikan saat membuka peti
     public float interactionDistance;
     private Transform player;            // Transform pemain
+
+
     private void Start()
     {
         player = FindObjectOfType<PlayerController>().transform;

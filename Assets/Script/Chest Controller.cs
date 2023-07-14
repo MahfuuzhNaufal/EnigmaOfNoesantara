@@ -6,6 +6,7 @@ public class ChestController : MonoBehaviour
 {
     private Animator animator;
     private bool isOpen = false;
+ 
 
     private void Start()
     {
