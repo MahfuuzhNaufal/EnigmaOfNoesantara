@@ -31,12 +31,12 @@ public class SimpleMovement : MonoBehaviour
         {
             rb.velocity = new Vector2(-speed, 0);
         }
-        if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointB.transform)
+        if (Vector2.Distance(transform.position, currentPoint.position) < 1f && currentPoint == pointB.transform)
         {
             flip();
             currentPoint = pointA.transform;
         }
-        if (Vector2.Distance(transform.position, currentPoint.position) < 0.5f && currentPoint == pointA.transform)
+        if (Vector2.Distance(transform.position, currentPoint.position) < 1f && currentPoint == pointA.transform)
         {
             flip();
             currentPoint = pointB.transform;
@@ -51,8 +51,8 @@ public class SimpleMovement : MonoBehaviour
     }
     private void OnDrawGizmos()
     {
-        Gizmos.DrawWireSphere(pointA.transform.position, 0.5f);
-        Gizmos.DrawWireSphere(pointB.transform.position, 0.5f);
+        Gizmos.DrawWireSphere(pointA.transform.position, 50f);
+        Gizmos.DrawWireSphere(pointB.transform.position, 70f);
         Gizmos.DrawLine(pointA.transform.position, pointB.transform.position);
     }
 }

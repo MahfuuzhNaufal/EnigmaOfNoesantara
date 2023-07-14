@@ -7,6 +7,16 @@ public class PlayerController : MonoBehaviour
 {
     private int coinCount = 0; // Jumlah total koin yang dikumpulkan oleh pemain
     [SerializeField] private Text coinText;
+
+    void Start()
+    {
+        coinCount = PlayerPrefs.GetInt("X ", coinCount);
+    }
+    void Update()
+    {
+        PlayerPrefs.SetInt("X ", coinCount);
+    }
+
     public void AddCoins(int amount)
     {
         coinCount += amount;
