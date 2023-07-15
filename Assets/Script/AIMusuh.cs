@@ -10,7 +10,17 @@ public class AIMusuh : MonoBehaviour
     public int maxHealth = 100;
     public Transform Range;
     int currentHealth;
+    public Player playerHealt;
+    public int damage;
     // Start is called before the first frame update
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Player")
+        {
+            playerHealt.TakeDamage(damage);
+        }
+    }
     void Start()
     {
         currentHealth = maxHealth;
@@ -31,5 +41,7 @@ public class AIMusuh : MonoBehaviour
         Debug.Log("musuh mati");
 
     }
+
+
 
 }

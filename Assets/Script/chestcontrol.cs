@@ -23,6 +23,7 @@ public class chestcontrol : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E) && !isOpen && Vector2.Distance(transform.position, player.position) <= interactionDistance)
         {
             OpenChest();
+
         }
     }
 

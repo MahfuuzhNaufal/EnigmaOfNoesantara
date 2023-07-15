@@ -779,7 +779,7 @@ GameObject:
   - component: {fileID: 162205835}
   m_Layer: 8
   m_Name: Musuh Level 2 (8)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -909,6 +909,8 @@ MonoBehaviour:
   speed: 0
   maxHealth: 200
   Range: {fileID: 0}
+  playerHealt: {fileID: 1942619656}
+  damage: 15
 --- !u!212 &162205839
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2982,6 +2984,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5125321043889141314, guid: 2cee32843d1346a4480a00d2e4f4e10f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1942619651}
+    - targetCorrespondingSourceObject: {fileID: 5125321043889141314, guid: 2cee32843d1346a4480a00d2e4f4e10f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1942619656}
   m_SourcePrefab: {fileID: 100100000, guid: 2cee32843d1346a4480a00d2e4f4e10f, type: 3}
 --- !u!1 &701286566 stripped
 GameObject:
@@ -3008,6 +3013,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8930451561940419226, guid: a7577c72a2913084fa77b14714b2f1f6, type: 3}
   m_PrefabInstance: {fileID: 584048462}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &737323963 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7491146989181564370, guid: 5fd7c248b2b0b1d47a6e3b8b3cda2f88, type: 3}
+  m_PrefabInstance: {fileID: 1155670832}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b16330cd48456724180e33233a29d335, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &740815278
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4039,7 +4055,7 @@ GameObject:
   - component: {fileID: 975243479}
   m_Layer: 8
   m_Name: Musuh Level 2 (5)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4169,6 +4185,8 @@ MonoBehaviour:
   speed: 0
   maxHealth: 200
   Range: {fileID: 0}
+  playerHealt: {fileID: 1942619656}
+  damage: 15
 --- !u!212 &975243483
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5358,7 +5376,7 @@ GameObject:
   - component: {fileID: 1157614186}
   m_Layer: 8
   m_Name: Musuh Level 2 (3)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5488,6 +5506,8 @@ MonoBehaviour:
   speed: 0
   maxHealth: 200
   Range: {fileID: 0}
+  playerHealt: {fileID: 1942619656}
+  damage: 15
 --- !u!212 &1157614190
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5702,7 +5722,7 @@ GameObject:
   - component: {fileID: 1254926453}
   m_Layer: 8
   m_Name: Musuh Level 2 (7)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5832,6 +5852,8 @@ MonoBehaviour:
   speed: 0
   maxHealth: 200
   Range: {fileID: 0}
+  playerHealt: {fileID: 1942619656}
+  damage: 15
 --- !u!212 &1254926457
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6247,7 +6269,7 @@ GameObject:
   - component: {fileID: 1454575331}
   m_Layer: 8
   m_Name: Musuh Level 2 (9)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6377,6 +6399,8 @@ MonoBehaviour:
   speed: 0
   maxHealth: 200
   Range: {fileID: 0}
+  playerHealt: {fileID: 1942619656}
+  damage: 15
 --- !u!212 &1454575335
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15631,7 +15655,7 @@ GameObject:
   - component: {fileID: 1543287987}
   m_Layer: 8
   m_Name: Musuh Level 2 (10)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15761,6 +15785,8 @@ MonoBehaviour:
   speed: 0
   maxHealth: 200
   Range: {fileID: 0}
+  playerHealt: {fileID: 1942619656}
+  damage: 15
 --- !u!212 &1543287991
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -15829,7 +15855,7 @@ GameObject:
   - component: {fileID: 1544452628}
   m_Layer: 8
   m_Name: Musuh Level 2 (1)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15959,6 +15985,8 @@ MonoBehaviour:
   speed: 0
   maxHealth: 200
   Range: {fileID: 0}
+  playerHealt: {fileID: 1942619656}
+  damage: 15
 --- !u!212 &1544452632
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -16251,7 +16279,7 @@ GameObject:
   - component: {fileID: 1591392338}
   m_Layer: 8
   m_Name: Musuh Level 2
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16422,6 +16450,8 @@ MonoBehaviour:
   speed: 0
   maxHealth: 200
   Range: {fileID: 0}
+  playerHealt: {fileID: 1942619656}
+  damage: 15
 --- !u!95 &1591392338
 Animator:
   serializedVersion: 5
@@ -16806,7 +16836,7 @@ GameObject:
   - component: {fileID: 1801418818}
   m_Layer: 8
   m_Name: Musuh Level 2 (4)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16936,6 +16966,8 @@ MonoBehaviour:
   speed: 0
   maxHealth: 200
   Range: {fileID: 0}
+  playerHealt: {fileID: 1942619656}
+  damage: 15
 --- !u!212 &1801418822
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17014,7 +17046,7 @@ GameObject:
   - component: {fileID: 1851502766}
   m_Layer: 8
   m_Name: Musuh Level 2 (2)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17144,6 +17176,8 @@ MonoBehaviour:
   speed: 0
   maxHealth: 200
   Range: {fileID: 0}
+  playerHealt: {fileID: 1942619656}
+  damage: 15
 --- !u!212 &1851502770
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -17449,6 +17483,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinText: {fileID: 523916161}
+--- !u!114 &1942619656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701286566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c46e4ce75f1ddf43a3f96645f319d9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 0
+  healthBar: {fileID: 737323963}
 --- !u!1001 &1955393769
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17550,7 +17599,7 @@ GameObject:
   - component: {fileID: 1957414057}
   m_Layer: 8
   m_Name: Musuh Level 2 (6)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17680,6 +17729,8 @@ MonoBehaviour:
   speed: 0
   maxHealth: 200
   Range: {fileID: 0}
+  playerHealt: {fileID: 1942619656}
+  damage: 15
 --- !u!212 &1957414061
 SpriteRenderer:
   m_ObjectHideFlags: 0

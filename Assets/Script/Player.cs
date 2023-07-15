@@ -15,17 +15,15 @@ public class Player : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDamage(20);
-        }
-    }
 
-    void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         currentHealth -= damage;
         healthBar.setHealth(currentHealth);
+        if (currentHealth <= 0)
+        {
+            Destroy(gameObject);
+            Debug.Log("kamu mati");
+        }
     }
 }
