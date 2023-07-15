@@ -333,6 +333,7 @@
 "Assets/Script/levelManager.cs"
 "Assets/Script/MainMenu.cs"
 "Assets/Script/nextLevel.cs"
+"Assets/Script/NextLevel2.cs"
 "Assets/Script/PauseMenu.cs"
 "Assets/Script/PauseMenu2.cs"
 "Assets/Script/Player movement.cs"
@@ -341,6 +342,8 @@
 "Assets/Script/PlayerAttack.cs"
 "Assets/Script/PlayerController.cs"
 "Assets/Script/SimpleMovement.cs"
+"Assets/Script/timerout.cs"
+"Assets/Unity.VisualScripting.Generated/VisualScripting.Core/AotStubs.cs"
 -langversion:9.0
 
 /deterministic

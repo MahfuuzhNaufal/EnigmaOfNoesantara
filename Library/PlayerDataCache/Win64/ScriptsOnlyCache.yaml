@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - AIMusuhLevel2
     - HealthBar
     - MainMenu
+    - NextLevel2
     - PauseMenu
     - PauseMenu2
     - Player
@@ -16,6 +17,7 @@ ScriptsOnlyBuild:
     - chestcontrol
     - levelManager
     - nextLevel
+    - timerout
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
     - Cinemachine.CinemachineFramingTransposer
@@ -98,8 +100,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -127,6 +131,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.RawImage
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   serializedClasses:
@@ -310,6 +315,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7686}
     - Class: 114
+      Script: {instanceID: 8048}
+    - Class: 114
       Script: {instanceID: 8294}
     - Class: 114
       Script: {instanceID: 8360}
@@ -318,21 +325,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8806}
     - Class: 114
-      Script: {instanceID: 9722}
+      Script: {instanceID: 9724}
     - Class: 114
-      Script: {instanceID: 10146}
+      Script: {instanceID: 10148}
     - Class: 114
-      Script: {instanceID: 10420}
+      Script: {instanceID: 10422}
     - Class: 114
-      Script: {instanceID: 10562}
+      Script: {instanceID: 10564}
     - Class: 114
-      Script: {instanceID: 10676}
+      Script: {instanceID: 10678}
     - Class: 114
-      Script: {instanceID: 10986}
+      Script: {instanceID: 10988}
     - Class: 114
-      Script: {instanceID: 11108}
+      Script: {instanceID: 11110}
     - Class: 114
-      Script: {instanceID: 11414}
+      Script: {instanceID: 11416}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -354,6 +361,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
       Script: {instanceID: 0}
     - Class: 19719996
       Script: {instanceID: 0}
@@ -384,11 +393,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
+    - Class: 68
+      Script: {instanceID: 0}
     - Class: 70
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -407,6 +422,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1826}
     - Class: 114
+      Script: {instanceID: 2558}
+    - Class: 114
       Script: {instanceID: 2706}
     - Class: 114
       Script: {instanceID: 3518}
@@ -414,6 +431,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7326}
     - Class: 114
       Script: {instanceID: 7686}
+    - Class: 114
+      Script: {instanceID: 8048}
     - Class: 114
       Script: {instanceID: 8294}
     - Class: 114
@@ -423,25 +442,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8806}
     - Class: 114
-      Script: {instanceID: 9608}
+      Script: {instanceID: 9492}
     - Class: 114
-      Script: {instanceID: 9696}
+      Script: {instanceID: 9610}
     - Class: 114
-      Script: {instanceID: 10146}
+      Script: {instanceID: 9698}
     - Class: 114
-      Script: {instanceID: 10290}
+      Script: {instanceID: 10148}
     - Class: 114
-      Script: {instanceID: 10420}
+      Script: {instanceID: 10292}
     - Class: 114
-      Script: {instanceID: 10562}
+      Script: {instanceID: 10422}
     - Class: 114
-      Script: {instanceID: 10986}
+      Script: {instanceID: 10564}
     - Class: 114
-      Script: {instanceID: 11108}
+      Script: {instanceID: 10988}
     - Class: 114
-      Script: {instanceID: 11414}
+      Script: {instanceID: 11110}
     - Class: 114
-      Script: {instanceID: 11856}
+      Script: {instanceID: 11416}
+    - Class: 114
+      Script: {instanceID: 11858}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -463,6 +484,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
       Script: {instanceID: 0}
     - Class: 19719996
       Script: {instanceID: 0}
@@ -497,6 +520,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -523,6 +550,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2288}
     - Class: 114
       Script: {instanceID: 2496}
+    - Class: 114
+      Script: {instanceID: 2558}
     - Class: 114
       Script: {instanceID: 2848}
     - Class: 114
@@ -566,6 +595,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7996}
     - Class: 114
+      Script: {instanceID: 8048}
+    - Class: 114
       Script: {instanceID: 8126}
     - Class: 114
       Script: {instanceID: 8294}
@@ -582,39 +613,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9404}
     - Class: 114
-      Script: {instanceID: 9496}
+      Script: {instanceID: 9498}
     - Class: 114
-      Script: {instanceID: 9754}
+      Script: {instanceID: 9756}
     - Class: 114
-      Script: {instanceID: 9826}
+      Script: {instanceID: 9828}
     - Class: 114
-      Script: {instanceID: 10442}
+      Script: {instanceID: 10444}
     - Class: 114
-      Script: {instanceID: 10488}
+      Script: {instanceID: 10490}
     - Class: 114
-      Script: {instanceID: 10666}
+      Script: {instanceID: 10668}
     - Class: 114
-      Script: {instanceID: 10922}
+      Script: {instanceID: 10924}
     - Class: 114
-      Script: {instanceID: 11224}
+      Script: {instanceID: 11226}
     - Class: 114
-      Script: {instanceID: 11342}
+      Script: {instanceID: 11344}
     - Class: 114
-      Script: {instanceID: 11414}
+      Script: {instanceID: 11416}
     - Class: 114
-      Script: {instanceID: 11424}
+      Script: {instanceID: 11426}
     - Class: 114
-      Script: {instanceID: 11504}
+      Script: {instanceID: 11506}
     - Class: 114
-      Script: {instanceID: 11614}
+      Script: {instanceID: 11616}
     - Class: 114
-      Script: {instanceID: 11648}
+      Script: {instanceID: 11650}
     - Class: 114
-      Script: {instanceID: 11760}
+      Script: {instanceID: 11762}
     - Class: 114
-      Script: {instanceID: 12024}
+      Script: {instanceID: 12026}
     - Class: 114
-      Script: {instanceID: 12784}
+      Script: {instanceID: 12786}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -632,6 +663,67 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    Assets/Scenes/TFE.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1786}
+    - Class: 114
+      Script: {instanceID: 2558}
+    - Class: 114
+      Script: {instanceID: 8048}
+    - Class: 114
+      Script: {instanceID: 8294}
+    - Class: 114
+      Script: {instanceID: 8468}
+    - Class: 114
+      Script: {instanceID: 8806}
+    - Class: 114
+      Script: {instanceID: 11416}
+    - Class: 114
+      Script: {instanceID: 83336}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    - Class: 328
+      Script: {instanceID: 0}
+    - Class: 329
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -792,7 +884,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerToggle
   - hash:
       serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
+      Hash: e84006f5ac6ec987fc96ab69e9705efe
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: nextLevel
@@ -1962,6 +2054,12 @@ ScriptsOnlyBuild:
     className: CinemachineGroupComposer
   - hash:
       serializedVersion: 2
+      Hash: 68bdf15f2c3f30af4615aa25fdb22b49
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: NextLevel2
+  - hash:
+      serializedVersion: 2
       Hash: adfcbacf24b05b2f3b60b081fdab21dc
     assemblyName: Unity.RenderPipelines.Core.Runtime
     namespaceName: UnityEngine.Rendering.UI
@@ -2524,9 +2622,17 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f10ad3892f7dd55b2bfa97a004d435c0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: timerout
   platform: 19
   scenePathNames:
   - Assets/Scenes/Menu.unity
   - Assets/Scenes/Level 1.unity
   - Assets/Scenes/Level 2.unity
-  playerPath: H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Game/Enigma Of Noesantara.exe
+  - Assets/Scenes/TFE.unity
+  playerPath: H:/Data Baru/Materi Kuliah/!!!SEMESTER 6/Enigma Of Noesantara/Enigma
+    Of Noesantara.exe

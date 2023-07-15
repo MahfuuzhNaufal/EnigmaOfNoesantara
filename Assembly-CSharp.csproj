@@ -75,6 +75,7 @@
     <Compile Include="Assets\Script\NextLevel2.cs" />
     <Compile Include="Assets\Script\chestcontrol.cs" />
     <Compile Include="Assets\Script\PlayerAttack Level 2.cs" />
+    <Compile Include="Assets\Script\timerout.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
