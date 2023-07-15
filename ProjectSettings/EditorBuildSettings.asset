@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TFE.unity
     guid: 7b0964dfba7235b4c950c6d20629a733
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: a77bbc6cc53c2c74495e177d4090f69b
+  - enabled: 1
+    path: Assets/Scenes/Intro2.unity
+    guid: d1d5344edb1a4244cb570417da6ec9d7
   m_configObjects: {}
