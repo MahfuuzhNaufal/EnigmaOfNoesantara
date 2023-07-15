@@ -7,12 +7,12 @@ public class NextLevel2 : MonoBehaviour
 {
     // Referensi ke LevelManager
     //public levelManager LevelManager;
-
+    public string LevelToLoad;
 
     // Method ini akan dipanggil ketika pemain menyentuh pintu keluar
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.name == "Player")
+        if (other.gameObject.name == "player")
         {
             //Memuat level berikutnya (Level 2)
             LoadNextLevel();
@@ -20,6 +20,6 @@ public class NextLevel2 : MonoBehaviour
     }
     private void LoadNextLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        SceneManager.LoadScene(LevelToLoad);
     }
 }
