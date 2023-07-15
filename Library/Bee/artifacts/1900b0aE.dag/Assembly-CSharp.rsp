@@ -391,6 +391,7 @@
 "Assets/Script/levelManager.cs"
 "Assets/Script/MainMenu.cs"
 "Assets/Script/nextLevel.cs"
+"Assets/Script/NextLevel2.cs"
 "Assets/Script/PauseMenu.cs"
 "Assets/Script/PauseMenu2.cs"
 "Assets/Script/Player movement.cs"

@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 2.unity
     guid: d9cff929490cd4a4caa3a3dcd7edda3a
+  - enabled: 1
+    path: Assets/Scenes/TFE.unity
+    guid: 7b0964dfba7235b4c950c6d20629a733
   m_configObjects: {}

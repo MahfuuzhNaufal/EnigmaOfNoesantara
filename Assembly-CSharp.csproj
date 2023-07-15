@@ -72,6 +72,7 @@
     <Compile Include="Assets\Script\PauseMenu2.cs" />
     <Compile Include="Assets\Script\PauseMenu.cs" />
     <Compile Include="Assets\Script\AIMusuh Level 2.cs" />
+    <Compile Include="Assets\Script\NextLevel2.cs" />
     <Compile Include="Assets\Script\chestcontrol.cs" />
     <Compile Include="Assets\Script\PlayerAttack Level 2.cs" />
   </ItemGroup>
